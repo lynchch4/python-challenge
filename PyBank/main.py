@@ -20,11 +20,11 @@ average = 0
 count2 = 0
 
 # set path for files
-path_name = '/Users/Chris/OneDrive/Documents/python-challenge/PyBank/Resources'
+path_name = '/Users/Chris/python-challenge/PyBank/Resources'
 
 csvpath = os.path.join("", "Resources", "budget_data.csv")
 
-out_name = '/Users/Chris/OneDrive/Documents/python-challenge/PyBank/analysis'
+out_name = '/Users/Chris/python-challenge/PyBank/analysis'
 
 out_path = os.path.join("", "analysis", "bank_analysis.txt")
     
@@ -57,7 +57,7 @@ with open(csvpath, encoding='utf') as csvfile:
        # assign variable for previous row profit/loss
        previous = int(row[1])
      
-       # find min/max date and amount for change in profit/loss
+       # Use If statement to find min/max date and amount for change in profit/loss
        if int(change) > int(max):
         max = int(change)
         datemax = row[0]

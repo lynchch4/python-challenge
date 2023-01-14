@@ -16,11 +16,11 @@ diana = 0
 raymon = 0
 
 # set path for files
-path_name = '/Users/Chris/OneDrive/Documents/python-challenge/PyPoll/Resources'
+path_name = '/Users/Chris/python-challenge/PyPoll/Resources'
 
 csvpath = os.path.join("", "Resources", "election_data.csv")
 
-out_name = '/Users/Chris/OneDrive/Documents/python-challenge/PyPoll/analysis'
+out_name = '/Users/Chris/python-challenge/PyPoll/analysis'
 
 out_path = os.path.join("", "analysis", "election_analysis.txt")
 
